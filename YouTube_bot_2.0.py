@@ -241,7 +241,6 @@ class SeleniumTest():
 if __name__ == "__main__":
 	rounds = 0
 	t = SeleniumTest()
-	time.sleep(60000)
 	#t.cookieenable()
 	#t.loginMelon(False)
 	t.login(False)
